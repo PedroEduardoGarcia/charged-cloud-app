@@ -1,12 +1,12 @@
 import { NextFunction, Request, Response } from "express";
-import CompanyService from "../services/companyService";
+import CompanyService from "../services/company.service";
 
 class CompanyController {
   private service = new CompanyService();
 
   async health(req: Request, res: Response, next: NextFunction) {
     try {
-      const { status, message } = await this.service.get();
+      const { status, message } = await this.service.health();
       res.status(status).json(message);
     } catch (error) {
       next(error);
