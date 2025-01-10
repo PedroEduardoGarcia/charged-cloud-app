@@ -9,5 +9,6 @@ companyRouter.get('/company/:id', controller.getById.bind(controller));
 companyRouter.post('/company', controller.create.bind(controller));
 companyRouter.delete('/company/:id', controller.delete.bind(controller));
 companyRouter.put('/company/:id', controller.update.bind(controller));
+companyRouter.post('/company/random', controller.createRandom.bind(controller))
 
 export default companyRouter;

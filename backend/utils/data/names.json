@@ -1,0 +1,117 @@
+{
+    "prefixes": [
+      "Nova", "Neo", "Tech", "Smart", "Eco", "Bio", "Cyber", "Digital", "Multi", "Pro",
+      "Global", "Nacional", "Brasil", "Grupo", "Rede", "Master", "Prime", "Max", "Super", "Ultra",
+      "Mega", "Inter", "Alpha", "Beta", "Delta", "Euro", "Uni", "Pan", "Top", "Premium",
+      "Royal", "Elite", "Plus", "Power", "Hyper", "Meta", "Next", "Future", "Advance", "Best"
+    ],
+    "mainNames": {
+      "technology": [
+        "Soft", "Tech", "Data", "Sys", "Net", "Web", "Cloud", "Byte", "Code", "Bit",
+        "Info", "Comp", "Link", "Cyber", "Digital", "Connect", "Mobile", "Smart", "System", "Logic",
+        "AI", "Dev", "Hack", "Lab", "Host", "Hub", "Core", "Edge", "Mind", "Brain",
+        "Quantum", "Pixel", "Virtual", "Crypto", "Block", "App", "Robot", "Vision", "Neural", "Wave"
+      ],
+      "industry": [
+        "Ind", "Metal", "Aço", "Plast", "Quím", "Text", "Flex", "Form", "Lab", "Pack",
+        "Mat", "Fábrica", "Manufatura", "Produção", "Mont", "Máquinas", "Equip", "Comp", "Peças", "Tools",
+        "Steel", "Iron", "Poly", "Craft", "Build", "Weld", "Gear", "Work", "Mold", "Cast",
+        "Plant", "Mill", "Forge", "Wood", "Glass", "Paper", "Print", "Seal", "Box", "Tank"
+      ],
+      "commerce": [
+        "Com", "Shop", "Store", "Market", "Center", "Mall", "Mart", "Loja", "Bazar", "House",
+        "Empório", "Magazine", "Mega", "Plus", "Express", "Brasil", "Mix", "Fort", "Big", "Top",
+        "Buy", "Sell", "Trade", "Deal", "Stock", "Supply", "Import", "Export", "Retail", "Sale",
+        "Exchange", "Outlet", "Fair", "Booth", "Spot", "Place", "Point", "Zone", "Area", "Space"
+      ],
+      "services": [
+        "Serv", "Consult", "Gest", "Admin", "Plan", "Soluções", "Express", "Care", "Help", "Support",
+        "Assist", "Pro", "Service", "Aid", "Aux", "Control", "Manager", "Direct", "Prime", "Master",
+        "Lead", "Guide", "Coach", "Mentor", "Expert", "Guru", "Talent", "Human", "People", "Staff",
+        "Team", "Force", "Elite", "Source", "Find", "Track", "Watch", "Guard", "Shield", "Secure"
+      ]
+    },
+    "founders": {
+      "firstNames": [
+        "João", "José", "Antonio", "Francisco", "Carlos", "Paulo", "Pedro", "Lucas", "Luiz", "Marcos",
+        "Gabriel", "Rafael", "Daniel", "Marcelo", "Bruno", "Eduardo", "Felipe", "Rodrigo", "Manoel", "Ricardo",
+        "Maria", "Ana", "Beatriz", "Carolina", "Diana", "Elena", "Fernanda", "Gabriela", "Helena", "Isabel",
+        "Julia", "Karen", "Laura", "Monica", "Natalia", "Olivia", "Patricia", "Renata", "Sandra", "Teresa"
+      ],
+      "lastNames": [
+        "Silva", "Santos", "Oliveira", "Souza", "Rodrigues", "Ferreira", "Alves", "Pereira", "Lima", "Gomes",
+        "Costa", "Ribeiro", "Martins", "Carvalho", "Almeida", "Lopes", "Soares", "Fernandes", "Vieira", "Barbosa",
+        "Rocha", "Dias", "Nascimento", "Andrade", "Moreira", "Nunes", "Marques", "Machado", "Mendes", "Freitas",
+        "Cardoso", "Ramos", "Gonçalves", "Santana", "Teixeira", "Moraes", "Cavalcanti", "Correia", "Pinto", "Borges"
+      ]
+    },
+    "suffixes": {
+      "legal": [
+        "Ltda", "S.A.", "ME", "EPP", "EIRELI", "Incorporações", "Corporation", "Company", "Enterprises", "Business",
+        "Inc", "Limited", "Corp.", "LLC", "Group", "Holding", "Partners", "Associates", "Co.", "Org"
+      ],
+      "activity": [
+        "Tecnologia", "Soluções", "Sistemas", "Serviços", "Consultoria", "Comércio", "Indústria", "Distribuição", 
+        "Representações", "Participações", "Empreendimentos", "Internacional", "Brasil", "Corporation", "Group",
+        "Technologies", "Solutions", "Enterprises", "Ventures", "Industries", "Trading", "Logistics", "Labs",
+        "Networks", "Innovations", "Developments", "Applications", "Management", "Resources", "Operations"
+      ],
+      "descriptors": [
+        "do Brasil", "Internacional", "& Cia", "e Associados", "Group", "Holding", "Corporate", "Enterprise",
+        "Solutions", "Business", "Global", "Worldwide", "National", "Regional", "Local", "Capital",
+        "Investments", "Partners", "Alliance", "Network", "United", "Prime", "Premier", "Select", "Choice"
+      ]
+    },
+    "connectors": [
+      "&", "e", "de", "do", "-", ".", "@", "Plus", "Tech", "Brasil",
+      "com", "by", "for", "in", "on", "up", "out", "off", "pro", "max"
+    ],
+    "patterns": [
+      "{prefix} {mainName}",
+      "{mainName} {suffix}",
+      "{prefix} {mainName} {suffix}",
+      "{mainName} {connector} {mainName}",
+      "{mainName}{connector}{mainName}",
+      "{prefix}{mainName}",
+      "{mainName} {descriptive}",
+      "{mainName} do Brasil",
+      "Grupo {mainName}",
+      "{mainName} & {mainName}",
+      "{founderLastName} {mainName}",
+      "{founderFirstName} {mainName}",
+      "Irmãos {founderLastName}",
+      "{founderLastName} & {founderLastName}",
+      "{founderLastName} {connector} Filhos",
+      "{mainName} {founderLastName}",
+      "{prefix} {mainName} {founderLastName}",
+      "Casa {founderLastName}",
+      "Auto {mainName}",
+      "{mainName} {connector} {mainName} {founderLastName}",
+      "{founderLastName} & Associados",
+      "{mainName} Brothers",
+      "{mainName} Company",
+      "The {mainName} Co.",
+      "{mainName} Brasil",
+      "{mainName} Corporation",
+      "{prefix} {mainName} Group",
+      "{mainName} Solutions & Services",
+      "{mainName} Consulting Group",
+      "Instituto {mainName}",
+      "Centro {mainName}",
+      "{mainName} Express",
+      "{mainName} Plus {suffix}",
+      "{mainName}.com",
+      "{mainName} Online",
+      "{mainName} Digital",
+      "{prefix} {mainName} Tech",
+      "{mainName} Intelligence",
+      "{mainName} Innovation",
+      "{mainName} Labs"
+    ],
+    "industries": [
+      "technology",
+      "industry",
+      "commerce",
+      "services"
+    ]
+  }

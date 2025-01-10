@@ -1,0 +1,96 @@
+{
+    "streetTypes": [
+      "Rua",
+      "Avenida",
+      "Alameda",
+      "Travessa",
+      "Praça",
+      "Viela",
+      "Estrada",
+      "Rodovia",
+      "Ladeira",
+      "Beco",
+      "Via",
+      "Passagem",
+      "Boulevard",
+      "Largo"
+    ],
+    "streetNames": [
+      "das Flores", "dos Ipês", "das Palmeiras", "São João", "Santo Antônio",
+      "Quinze de Novembro", "Sete de Setembro", "Dom Pedro", "Brasil", "Santos Dumont",
+      "das Laranjeiras", "dos Bandeirantes", "Principal", "José Bonifácio", "Tiradentes",
+      "Marechal Deodoro", "Getúlio Vargas", "Juscelino Kubitschek", "João Pessoa", "Rui Barbosa",
+      "Barão do Rio Branco", "Carlos Gomes", "Castro Alves", "Pedro II", "São Francisco",
+      "Duque de Caxias", "Princesa Isabel", "José de Alencar", "Machado de Assis", "Monteiro Lobato",
+      "dos Andradas", "São Pedro", "Santa Luzia", "Nossa Senhora Aparecida", "Padre José de Anchieta",
+      "dos Imigrantes", "das Acácias", "dos Girassóis", "das Orquídeas", "dos Cravos",
+      "das Margaridas", "dos Jasmins", "das Violetas", "das Rosas", "dos Lírios",
+      "das Camélias", "dos Pinheiros", "das Oliveiras", "dos Eucaliptos", "das Mangueiras",
+      "Visconde do Rio Branco", "Almirante Tamandaré", "Coronel Joaquim", "Major Costa", "General Osório",
+      "Marechal Floriano", "Dom João VI", "Imperador", "da República", "da Independência",
+      "da Liberdade", "da Paz", "da Saudade", "do Sol", "da Lua",
+      "das Estrelas", "do Mar", "do Rio", "da Praia", "do Campo",
+      "da Serra", "do Vale", "do Bosque", "da Floresta", "do Lago",
+      "das Águas", "dos Pássaros", "das Gaivotas", "dos Sabiás", "dos Canários",
+      "dos Bem-te-vis", "das Araras", "dos Tucanos", "das Andorinhas", "dos Pardais",
+      "Amazonas", "Bahia", "Ceará", "Goiás", "Maranhão",
+      "Mato Grosso", "Pará", "Paraíba", "Pernambuco", "Piauí",
+      "Rio Grande do Sul", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins",
+      "dos Artistas", "dos Músicos", "dos Poetas", "dos Escritores", "dos Pintores",
+      "dos Escultores", "dos Arquitetos", "dos Engenheiros", "dos Médicos", "dos Professores",
+      "das Artes", "da Música", "da Poesia", "da Literatura", "da Pintura",
+      "da Arquitetura", "da Medicina", "da Educação", "da Ciência", "do Progresso",
+      "da Harmonia", "da União", "da Amizade", "da Esperança", "do Futuro"
+    ],
+    "neighborhoods": [
+      "Centro", "Jardim América", "Vila Nova", "Boa Vista", "Santa Maria",
+      "São José", "Jardim Europa", "Vila Industrial", "Parque das Nações", "Bela Vista",
+      "Cidade Nova", "Vila São Paulo", "Jardim Primavera", "Alto da Boa Vista", "Santa Cecília",
+      "Jardim das Flores", "Vila Santa Teresa", "Parque São Jorge", "Vila Mariana", "Moema",
+      "Brooklin", "Campo Belo", "Morumbi", "Itaim Bibi", "Jardim Paulista",
+      "Pinheiros", "Perdizes", "Lapa", "Santana", "Tatuapé",
+      "Penha", "Vila Madalena", "Vila Olímpia", "Ipiranga", "Saúde",
+      "Jabaquara", "Interlagos", "Socorro", "Cidade Jardim", "Butantã",
+      "Pacaembu", "Higienópolis", "Consolação", "Paraíso", "Vila Leopoldina",
+      "Cidade Universitária", "Jardim Botânico", "Água Branca", "Vila Romana", "Pompeia",
+      "Jardim São Luiz", "Vila Sônia", "Real Parque", "Morumbi Sul", "Cidade Dutra"
+    ],
+    "cities": {
+      "SP": [
+        "São Paulo", "Campinas", "Santos", "São José dos Campos", "Ribeirão Preto",
+        "Sorocaba", "Osasco", "Santo André", "São Bernardo do Campo", "Bauru",
+        "São Caetano do Sul", "Guarulhos", "Diadema", "Jundiaí", "Piracicaba",
+        "Franca", "Limeira", "Suzano", "Mogi das Cruzes", "Taubaté"
+      ],
+      "RJ": [
+        "Rio de Janeiro", "Niterói", "São Gonçalo", "Petrópolis", "Volta Redonda",
+        "Nova Iguaçu", "Duque de Caxias", "Belford Roxo", "São João de Meriti", "Cabo Frio",
+        "Angra dos Reis", "Macaé", "Teresópolis", "Nova Friburgo", "Resende",
+        "Itaboraí", "Barra Mansa", "Campos dos Goytacazes", "Nilópolis", "Queimados"
+      ],
+      "MG": [
+        "Belo Horizonte", "Uberlândia", "Juiz de Fora", "Contagem", "Ouro Preto",
+        "Betim", "Montes Claros", "Uberaba", "Governador Valadares", "Ipatinga",
+        "Sete Lagoas", "Divinópolis", "Santa Luzia", "Poços de Caldas", "Patos de Minas",
+        "Pouso Alegre", "Varginha", "Barbacena", "Conselheiro Lafaiete", "Itabira"
+      ],
+      "RS": [
+        "Porto Alegre", "Caxias do Sul", "Pelotas", "Canoas", "Santa Maria",
+        "Gravataí", "Viamão", "Novo Hamburgo", "São Leopoldo", "Rio Grande",
+        "Alvorada", "Passo Fundo", "Sapucaia do Sul", "Uruguaiana", "Santa Cruz do Sul",
+        "Cachoeirinha", "Bagé", "Bento Gonçalves", "Erechim", "Guaíba"
+      ],
+      "PR": [
+        "Curitiba", "Londrina", "Maringá", "Ponta Grossa", "Cascavel",
+        "São José dos Pinhais", "Foz do Iguaçu", "Colombo", "Guarapuava", "Paranaguá",
+        "Apucarana", "Toledo", "Arapongas", "Campo Largo", "Pinhais",
+        "Araucária", "Cambé", "Campo Mourão", "Umuarama", "Castro"
+      ],
+      "SC": [
+        "Florianópolis", "Joinville", "Blumenau", "São José", "Criciúma",
+        "Chapecó", "Itajaí", "Lages", "Jaraguá do Sul", "Palhoça",
+        "Balneário Camboriú", "Brusque", "Tubarão", "São Bento do Sul", "Caçador",
+        "Concórdia", "Camboriú", "Navegantes", "Biguaçu", "Rio do Sul"
+      ]
+    }
+  }

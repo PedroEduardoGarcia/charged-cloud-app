@@ -32,6 +32,15 @@ class CompanyController {
     }
   }
 
+  async createRandom(req: Request, res: Response, next: NextFunction) {
+    try {
+      const { status, message } = await this.service.createRandom();
+      res.status(status).json(message);
+    } catch (error) {
+      next(error);
+    }
+  }
+
   async delete(req: Request, res: Response, next: NextFunction) {
     try {
       const { id } = req.params;
