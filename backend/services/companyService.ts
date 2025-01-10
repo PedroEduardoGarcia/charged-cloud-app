@@ -6,6 +6,10 @@ import { CompanyGenerator } from "../utils/CompanyGenerator";
 class CompanyService {
   private model: ModelStatic<Company> = Company;
 
+  async health() {
+    return resp(200, "API is online");
+  }
+
   async get() {
     const companies = await this.model.findAll();
     return resp(200, companies);

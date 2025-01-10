@@ -4,6 +4,15 @@ import CompanyService from "../services/companyService";
 class CompanyController {
   private service = new CompanyService();
 
+  async health(req: Request, res: Response, next: NextFunction) {
+    try {
+      const { status, message } = await this.service.get();
+      res.status(status).json(message);
+    } catch (error) {
+      next(error);
+    }
+  }
+  
   async get(req: Request, res: Response, next: NextFunction) {
     try {
       const { status, message } = await this.service.get();
