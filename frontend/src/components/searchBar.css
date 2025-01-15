@@ -1,4 +1,4 @@
-.header .search-bar {
+.search-bar {
   min-width: 360px;
   padding: 0 20px;
 }
@@ -25,11 +25,11 @@
   }
 }
 
-.header .search-form {
+.search-form {
   width: 100%;
 }
 
-.header .search-form input {
+.search-form input {
   border: 0;
   font-size: 14px;
   color: #012970;
@@ -40,20 +40,25 @@
   width: 100%;
 }
 
-.header .search-form input:focus,
-.header .search-form input:hover {
+.search-form input:focus,
+.search-form input:hover {
   outline: none;
   box-shadow: 0 0 10 0 rgba(1, 41, 112, 0.15);
   border: 1px solid rgba(1, 41, 112, 0.3);
 }
 
-.header .search-form button {
+.search-form button {
   border: 0;
   padding: 0;
   margin-left: -30px;
   background: none;
 }
 
-.header .search-form button i{
+.search-form button i{
   color: #012970;
 }
+
+.card .search-bar {
+  max-width: 400px;
+}
+

@@ -1,6 +1,7 @@
 import './nav.css';
 import NavAvatar from './NavAvatar';
 import NavNotice from './NavNotice';
+import NavOnOff from './NavOnOff';
 
 function Nav() {
   return (
@@ -8,6 +9,7 @@ function Nav() {
       <ul className='d-flex align-items-center'>
         <NavNotice />
         <NavAvatar />
+        <NavOnOff />
       </ul>
     </nav>
   )
