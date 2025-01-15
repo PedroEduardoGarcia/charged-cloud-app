@@ -63,6 +63,29 @@ class CompanyService {
     return resp(201, newCompany);
   }
 
+  async createRandomData() {
+    console.log('HERE')
+    const path = require('path');
+    const generator: CompanyGenerator = new CompanyGenerator(
+        path.resolve('utils/data/addresses.json'),
+        path.resolve('utils/data/names.json')
+    );
+    const data = generator.generate();
+    if (!data.cnpj || !data.name) {
+        return resp(400, "CNPJ and Name are required");
+    }
+
+    const cleanCNPJ = data.cnpj.replace(/[^\d]/g, '');
+    const randomCompany = {
+        cnpj: cleanCNPJ,
+        name: data.name,
+        address: data.address,
+        phone: data.phone,
+    };
+
+    return resp(200, randomCompany);
+  }
+
   async delete(id: string) {
     const company = await this.model.findOne({
       where: { id },
